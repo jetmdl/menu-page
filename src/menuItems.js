@@ -1,5 +1,5 @@
 export default function getMenuItems() {
-    // Pretend this is an API or that gets a SQL list of items or something:
+    // Pretend this is an API that gets a SQL list of items or something:
     const menuItems = [
         {
             "dish": "Madras",
