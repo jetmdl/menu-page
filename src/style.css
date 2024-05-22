@@ -53,6 +53,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #rightPad {
@@ -64,8 +66,8 @@
 }
 
 .menuItem {
-    margin: 10px;
     padding: 20px;
+    margin: 20px;
     width: 90%;
     min-width: 800px;
     height: 150px;
