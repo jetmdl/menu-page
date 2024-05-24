@@ -18,17 +18,20 @@ export default function createTemplate(){
     const menuHomeButton = document.createElement('div');
     menuHomeButton.id = 'menuHomeButton';
     menuHomeButton.innerHTML = 'Home';
-    document.querySelector('#menuButtoncontainer').appendChild(menuHomeButton);
+    menuHomeButton.className = 'menuButton';
+    document.querySelector('#menuButtonContainer').appendChild(menuHomeButton);
 
     const menuMenuButton = document.createElement('div');
     menuMenuButton.id = 'menuMenuButton';
     menuMenuButton.innerHTML = 'Menu';
-    document.querySelector('#menuButtoncontainer').appendChild(menuMenuButton);
+    menuMenuButton.className = 'menuButton';
+    document.querySelector('#menuButtonContainer').appendChild(menuMenuButton);
 
     const menuContactButton = document.createElement('div');
     menuContactButton.id = 'menuContactButton';
     menuContactButton.innerHTML = 'Contact';
-    document.querySelector('#menuButtoncontainer').appendChild(menuContactButton);
+    menuContactButton.className = 'menuButton';
+    document.querySelector('#menuButtonContainer').appendChild(menuContactButton);
 
     //Create and append the flex container that holds the center content and padding divs 
     const flexContainer = document.createElement('div');
