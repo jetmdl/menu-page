@@ -110,3 +110,23 @@
     min-height: 50px;
     background-color: goldenrod;
 }
+
+.aboutDiv {
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+    min-width: 800px;
+    height: 450px;
+    min-height: 50px;
+    background-color: brown;
+}
+
+.hoursDiv {
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+    min-width: 800px;
+    height: 350px;
+    min-height: 50px;
+    background-color: brown;
+}
